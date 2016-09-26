@@ -1,0 +1,11 @@
+{
+  "name": "package-test",
+  "version": "0.0.1",
+  "description": "A test for bit-docs @package tag",
+  "main": "foo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

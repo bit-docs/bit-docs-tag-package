@@ -1,0 +1,33 @@
+{
+  "name": "bit-docs-tag-package",
+  "version": "0.0.1",
+  "description": "Reference package's package.json",
+  "main": "package.js",
+  "scripts": {
+    "test": "mocha test/test.js --reporter spec",
+    "postversion": "git push --tags && git push",
+    "preversion": "npm test",
+    "release:pre": "npm version prerelease && npm publish",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bit-docs/bit-docs-tag-package.git"
+  },
+  "keywords": [
+    "bit-docs",
+    "donejs"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bit-docs/bit-docs-tag-package/issues"
+  },
+  "homepage": "https://github.com/bit-docs/bit-docs-tag-package#readme",
+  "devDependencies": {
+    "bit-docs-process-tags": "0.0.5",
+    "mocha": ">= 1.18.0"
+  }
+}
