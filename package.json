@@ -1,6 +1,6 @@
 {
   "name": "bit-docs-tag-package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Reference package's package.json",
   "main": "package.js",
   "scripts": {
