@@ -3,7 +3,7 @@ var pkg = require("../package");
 var path = require("path");
 var assert = require("assert");
 
-describe("sourceref", function() {
+describe("package", function() {
     it("adds the package.json info", function() {
 		var docMap = {};
 
