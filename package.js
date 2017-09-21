@@ -3,7 +3,7 @@ var fs = require("graceful-fs");
 
 /**
  * @parent bit-docs-tag-package/tags
- * @module {bit-docs/types/tag} bit-docs-tag-package/tags/package @package
+ * @module {bit-docs-process-tags/types/tag} bit-docs-tag-package/tags/package @package
  * 
  * @description Adds the package's `package.json` info to the
  * [bit-docs/types/docObject].
